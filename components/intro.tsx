@@ -64,9 +64,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ben.</span> I'm a{" "}
-        <span className="font-bold">software engineer</span> at{" "}
-        <span className="font-bold">Humanforce</span> in Brisbane. I'm currently working with Laravel, React.js, GraphQL, and AWS.
+        <span className="font-bold">Hello, I'm Sivani.</span> I'm a{" "}
+        <span className="font-bold">computer science graduate</span> at{" "}
+        <span className="font-bold">University Of Houston </span> in Texas.
       </motion.h1>
 
       <motion.div
@@ -79,7 +79,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://github.com/ben04rogers"
+          href="https://github.com/sivani-git"
           target="_blank"
         >
           GitHub <FaGithub className="opacity-70" />
@@ -87,7 +87,7 @@ export default function Intro() {
 
         <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/ben-rogers-dev/"
+          href="https://www.linkedin.com/in/sivani-p-7958bb1a7/"
           target="_blank"
         >
           <span className="opacity-70">LinkedIn</span>

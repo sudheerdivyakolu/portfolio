@@ -46,7 +46,7 @@ export default function Project({
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section className="bg-gray-100 max-w-[58rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative lg:min-h-[21rem] hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-        <div className="pt-4 pb-7 px-5 md:pl-10 md:pr-2 md:pt-10 lg:max-w-[50%] flex flex-col h-full">
+        <div className="pt-4 pb-7 px-5 md:pl-10 md:pr-2 md:pt-10 lg:max-w-[100%] flex flex-col h-full">
           <h3 className="text-2xl font-semibold mb-4">{title}</h3>
           <ul className="flex flex-wrap gap-2 mb-3 sm:mt-auto">
             <p className="font-bold text-gray-500 dark:text-white/70">
@@ -96,7 +96,7 @@ export default function Project({
           </div>
         </div>
 
-        <Image
+        {/* <Image
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
@@ -107,7 +107,7 @@ export default function Project({
           group-hover:translate-y-3
           group-hover:-rotate-2
           "
-        />
+        /> */}
       </section>
     </motion.div>
   );

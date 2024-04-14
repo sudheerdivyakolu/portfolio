@@ -1,14 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import cryptoCrowdImg from "@/public/cryptocrowd2.png";
-import ozdevsImg from "@/public/ozdevs-two.png";
-import assetTradingImg from "@/public/asset-trading.jpg";
-import euphorusImg from "@/public/euphorus-two.png";
-import euphorusBackendImg from "@/public/euphorus-backend.png";
-import techprowlImg from "@/public/techprowl-two.png";
-import taskManagerImg from "@/public/task-manager.png";
-import familyTreeImg from "@/public/bfsproject.jpg";
-import binaryGameImg from "@/public//binary-game.png";
+
 
 export const links = [
   {
@@ -39,207 +31,129 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Developer",
-    location: "M3 Digital - Contract",
+    title: "Graduate Assistant",
+    location: "University of Houston, Texas",
     description:
-      "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain. Developed high quality landing pages and front end features using HTML, CSS, SCSS, JavaScript and Liquid.",
+      "Lead technical troubleshooting and resolving issues related to exam software and equipment minimizing disruptions and ensuring a seamless testing process for over 500 students per semester.",
     icon: React.createElement(CgWorkAlt),
-    date: "September 2021 - February 2022",
+    date: "Aug 2023 - Dec 2023",
   },
   {
-    title: "Junior Developer",
-    location: "YouPay - Full-time",
+    title: "Machine learning intern",
+    location: "Indian Servers",
     description:
-      "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs. Created an email notification system for mechants to receive weekly/monthly summaries of YouPay carts created, paid and cancelled. I also integrated YouPay into dozens of stores.",
+      "Took initiative to manage a multidisciplinary team to implement a project Drowsiness Detection System, leveraged state-of-the-art deep learning models, such as Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs), to analyze facial expressions and monitor eyelid movements in real-time. ",
     icon: React.createElement(CgWorkAlt),
-    date: "February 2022 - November 2022",
-  },
-  {
-    title: "Software Engineer",
-    location: "The University of Queensland - Full-time",
-    description:
-      "Full-stack software engineer in the Application Development and Support team. Worked on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
-    icon: React.createElement(CgWorkAlt),
-    date: "November 2022 - January 2024",
-  },
+    date: "Aug 2020 - Sep 2020",
+  }
 ] as const;
 
 export const projectsData = [
   {
-    title: "CryptoCrowd",
+    title: "Weather Forecast App",
     description:
-      "Cryptocurrency sentiment analysis on tweets. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently tweeting. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.",
-    tags: ["JavaScript", "React", "Express.js", "AWS"],
+      "Developed a sleek Weather Forecast App in Swift, providing real-time updates for the current location. Features include a user-friendly interface, global location search, saved locations, and dynamic weather notifications. Proficient in Swift, I led the end-to-end development, ensuring a seamless and responsive user experience. ",
+    tags: ["Swift", "Xcode"],
     icons: [
-      "logos:aws",
-      "logos:javascript",
-      "logos:react",
-      "logos:bootstrap",
-      "logos:express",
+      "logos:swift",
+      "logos:xcode"
     ],
-    imageUrl: cryptoCrowdImg,
-    githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
-    demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
+    // imageUrl: cryptoCrowdImg,
+    // githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
+    // demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
   },
   {
-    title: "OzDevs",
+    title: "Affective Driving Analysis Project",
     description:
-      "Reverse Job board for companies looking to hire developers in Australia. Filter by experience, location and keyboards.  Companies can pay a monthly fee to be able to message developers on the site and view their information.",
-    tags: ["PHP", "Laravel", "JavaScript", "Tailwind", "MySQL"],
+      "Implemented Multiple Linear Regression Modeling in R to analyze factors influencing heart rate during driving. Conducted exploratory analysis through comprehensive summary visualizations, providing insights into trip-level distributions across various variables. Utilized geospatial data to visualize participant distributions in Texas, contributing to affective driving research through proactive teamwork and clear communication of project goals and progress, and effective presentation. ",
+    tags: ["R"],
     icons: [
-      "logos:laravel",
-      "logos:php",
-      "logos:javascript",
-      "devicon:tailwindcss",
-      "logos:mysql",
+      "mdi:language-r"
     ],
-    imageUrl: ozdevsImg,
-    urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
-    githubLink: "https://github.com/ben04rogers/ozdevs-v2",
+    // imageUrl: ozdevsImg,
+    // urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
+    // githubLink: "https://github.com/ben04rogers/ozdevs-v2",
   },
   {
-    title: "Company Asset Trading",
+    title: "Image Enhancement using Neural Networks",
     description:
-      "Client-server system written in Java for trading of virtual assets within departments of a company. Facilitated trades via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
-    tags: ["Java", "MariaDB", "Swing"],
-    icons: ["logos:java", "logos:mariadb-icon"],
-    imageUrl: assetTradingImg,
-    githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
-  },
-  {
-    title: "Euphorus",
-    description:
-      "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit. AG Grid and Chart.js were used to present the data.",
-    tags: ["JavaScript", "React", "Bootstrap"],
-    icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
-    imageUrl: euphorusImg,
-    githubLink: "https://github.com/ben04rogers/cab230assignment1",
-  },
-  {
-    title: "Country Happiness API",
-    description:
-      "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
-    tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
-    icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
-    imageUrl: euphorusBackendImg,
-    githubLink: "https://github.com/ben04rogers/cab230assignment2",
-  },
-  {
-    title: "Techprowl Computer Auction",
-    description:
-      "Computer auction application built with Flask. The site allows users to register, bid on items, leave reviews, post new listings, manage listings, search by keyword, and keep a watch list. ",
-    tags: ["Python", "Flask", "Bootstrap", "SQLite"],
-    icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
-    imageUrl: techprowlImg,
-    githubLink: "https://github.com/ben04rogers/computer-auction",
-    urlLink: "https://techprowl.herokuapp.com",
-  },
-  {
-    title: "Task Manager Console App",
-    description:
-      "Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.",
-    tags: ["C#"],
-    icons: ["devicon:csharp"],
-    imageUrl: taskManagerImg,
-    githubLink: "https://github.com/ben04rogers/task-manager",
-  },
-  {
-    title: "Family Tree Shortest Path",
-    description:
-      "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
-    tags: ["Python"],
-    icons: ["logos:python"],
-    imageUrl: familyTreeImg,
-    githubLink: "https://github.com/ben04rogers/breadth-first-search",
-    demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
-  },
-  {
-    title: "Arduino Binary Game",
-    description:
-      "Binary game written in C that runs on an Arduino Uno using Tinkercad. The game aims to help users learn binary by challenging them to input different integers in their binary form within a time limit.",
-    tags: ["C"],
-    icons: ["devicon:c"],
-    imageUrl: binaryGameImg,
-    githubLink: "https://github.com/ben04rogers/binary-game-microcontroller",
-    demoLink: "https://www.youtube.com/watch?v=A6n6XDk4Unw&feature=youtu.be",
-  },
+      "Spearheaded the implementation of advanced deep learning-based image enhancement techniques (SRGAN, ESRGAN, Real- ESRGAN) using Python in Google Colab, showcasing transformative potential for diagnostic image quality by leveraging key libraries and frameworks such as OpenCV, TensorFlow, PyTorch, Matplotlib.",
+    tags: ["Python", "PyTorch"],
+    icons: [
+      "logos:python",
+      "logos:pytorch",
+      "logos:opencv",
+      "logos:tensorflow",
+      "logos:matplotlib"
+    ],
+    // imageUrl: assetTradingImg,
+    // githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
+  }
 ] as const;
 
 export const skillsData = [
   {
-    name: "JavaScript",
-    icon: "logos:javascript",
-  },
-  {
-    name: "TypeScript",
-    icon: "logos:typescript-icon",
-  },
-  {
-    name: "React",
-    icon: "logos:react",
-  },
-  {
-    name: "Node.js",
-    icon: "logos:nodejs-icon",
-  },
-  {
-    name: "PHP",
-    icon: "logos:php",
-  },
-  {
-    name: "Laravel",
-    icon: "logos:laravel",
-  },
-  {
-    name: "Symfony",
-    icon: "logos:symfony",
-  },
-  {
     name: "Python",
     icon: "logos:python",
+  },
+  {
+    name: "C",
+    icon: "logos:c",
   },
   {
     name: "Java",
     icon: "logos:java",
   },
   {
-    name: "HTML",
-    icon: "vscode-icons:file-type-html",
+    name: "R",
+    icon: "mdi:language-r",
+  },
+  {
+    name: "Swift",
+    icon: "logos:swift",
+  },
+  {
+    name: "React",
+    icon: "logos:react",
+  },
+  {
+    name: "Pandas",
+    icon: "logos:pandas",
+  },
+  {
+    name: "Numpy",
+    icon: "logos:numpy",
+  },
+  {
+    name: "Pytorch",
+    icon: "logos:pytorch",
+  },
+  {
+    name: "Matplotlib",
+    icon: "logos:matplotlib",
+  },
+  {
+    name: "Tensorflow",
+    icon: "logos:tensorflow",
+  },
+  {
+    name: "Tableau",
+    icon: "logos:tableau",
   },
   {
     name: "CSS",
     icon: "vscode-icons:file-type-css",
   },
   {
-    name: "SCSS",
-    icon: "logos:sass",
+    name: "HTML",
+    icon: "vscode-icons:file-type-html",
   },
   {
-    name: "Git",
-    icon: "logos:git-icon",
+    name: "Javascript",
+    icon: "logos:javascript",
   },
   {
     name: "MySQL",
     icon: "logos:mysql",
-  },
-  {
-    name: "Linux",
-    icon: "flat-color-icons:linux",
-  },
-  {
-    name: "AWS",
-    icon: "logos:aws",
-  },
-  {
-    name: "Docker",
-    icon: "logos:docker-icon",
-  },
-  {
-    name: "Jenkins",
-    icon: "devicon:jenkins",
-  },
-  {
-    name: "Shopify",
-    icon: "logos:shopify",
-  },
+  }
 ] as const;
